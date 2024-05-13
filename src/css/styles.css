@@ -11,6 +11,7 @@
 
 body{
         font-family: var(--font-mono);
+        background-color: #651979;
 }
 
 section{
@@ -57,14 +58,14 @@ margin-bottom: 1em;
 padding: 0.8em;
 border-radius: 9px;
 border: none;
-outline-color: blue;
+outline-color: #aa42c4;
 background-color: whitesmoke;
 }
 
 section form input[type='submit']{
 margin-top: 1.5em;
-background-color: rgb(99, 99, 254);
-color: #fff;
+background-color: #2b1730;
+color: #aa42c4;
 font-family: var(--font-mono);
 transition: var(--transition);
 }
@@ -79,6 +80,13 @@ margin-top: 1.5em;
 
 section p a {
 text-decoration: none;
-color: rgb(0, 0, 255);
+color: #aa42c4;
 }
 
+#loginForm{
+    background-color: #7e3191;
+}
+
+#signupForm{
+    background-color: #7e3191;
+}
