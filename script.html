@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="script.css" />
+
+    <title>Home</title>
+  </head>
+  <body>
+    <div class="contenedor">
+      <div class="nav">
+        <header class="header">
+          <h1 class="logo">Portafolio</h1>
+
+          <nav class="navbar">
+            <a href="#sor">SOBRE MI </a>
+            <a href="#pro">PROYECTOS</a>
+            <a href="#hab">HABILIDADES</a>
+            <a href="#con">CONTACTO</a>
+          </nav>
+        </header>
+      </div>
+
+      <div class="banner">
+        <div class="texto1"><h1 id="sor">Sobre mi</h1></div>
+        <p id="tsobre"></p>
+      </div>
+      <div class="Btn">
+        <input type="text" id="input1" />
+        <button id="Btn1">enviar</button>
+      </div>
+      <div class="banner2">
+        <div class="texto2">
+          <h1 id="pro">Proyectos</h1>
+        </div>
+        <p id="tsobre2"></p>
+      </div>
+      <div class="Btn">
+        <input type="text" id="input2" />
+        <button id="Btn2">enviar</button>
+      </div>
+      <div class="banner3">
+        <div class="texto3">
+          <h1 id="hab">Habilidades</h1>
+        </div>
+        <p id="tsobre3"></p>
+      </div>
+      <div class="Btn">
+        <input type="text" id="input3" />
+        <button id="Btn3">enviar</button>
+      </div>
+      <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+          <h2 id="con">CONTACTO</h2>
+          <div class="fila">
+            <div class="col">
+              <input type="text" placeholder="Tú Nombre" />
+              <input type="text" placeholder="Número telefónico" />
+              <input type="text" placeholder="Dirección de correo" />
+              <input type="text" placeholder="Tema" />
+              <textarea
+                name=""
+                id=""
+                cols="30"
+                rows="10"
+                placeholder="Mensaje"
+              ></textarea>
+              <button>
+                Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                <span class="overlay"></span>
+              </button>
+            </div>
+            <div class="col">
+              <div class="info">
+                <ul>
+                  <li>
+                    <i class="fa-solid fa-location-dot"></i>
+                    Costa Rica 178, Santa Ana
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-mobile-screen"></i>
+                    Llamanos: 2384 - 5978
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-envelope"></i>
+                    Email: pramos@gmail.com
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <button id="logout">salir</button>
+
+    <script src="src/js/script.js"></script>
+  </body>
+</html>
